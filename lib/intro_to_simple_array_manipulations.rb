@@ -1,8 +1,16 @@
+<<<<<<< HEAD
 def using_push(countries_in_western_africa, next_country)   
   countries_in_western_africa = ["Benin", "Carpe Verde", "Gambia", "Liberia", "Mali"]
   next_country = "Niger"
   countries_in_western_africa.push(next_country)
   countries_in_western_africa
+=======
+def using_push(countries_in_western_africa, next_country) 
+countries_in_western_africa = ["Benin", "Carpe Verde", "Gambia", "Liberia", "Mali"]
+ next_country = "Niger"
+ countries_in_western_africa.push(next_country)
+ countries_in_western_africa
+>>>>>>> ac15b9b3547405e6891921d6c6a3873ce1a00559
 end
 
 def using_unshift(neighborhoods_in_northwest_brooklyn, new_neighborhood)
@@ -20,6 +28,7 @@ end
 
 def pop_with_args(chars_in_game_of_thrones)
    @chars_in_game_of_thrones = ["Danny T.", "Tyrion Lannister", "Stable Boy", "Sandor Clegane"]
+<<<<<<< HEAD
    @chars_in_game_of_thrones.pop(2)
 end
 
@@ -69,4 +78,19 @@ famous_robots = ["the dog from doctor who", "R2D2", "Ultron"]
 integer = 2
 deleted_robots = famous_robots.delete_at(integer)
 end
+=======
+    @chars_in_game_of_thrones.pop(2)
+end
+
+def using_ushift(my_favorite_cities)
+   @my_favorite_cities = ["Lagos", "Cape Town", "Nairobi", "San Francisco", "Gaborone", "New York", "Berlin", "London"]
+  
+end
+
+
+
+
+
+
+>>>>>>> ac15b9b3547405e6891921d6c6a3873ce1a00559
 
